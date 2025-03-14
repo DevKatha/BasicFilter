@@ -2,7 +2,7 @@
     "name": "Uniques",
     "Subtitle": "Unique Drops",
     "Description": "Big Boi Drops",
-    "rs2f": { "path": "./Uniques.rs2f" },
+    "rs2fPath":"Uniques.rs2f",
     "inputs": [
       {
         "type": "includeExcludeList",

@@ -1,0 +1,65 @@
+{
+    "name": "Uniques",
+    "inputs": [
+      {
+        "type": "includeExcludeList",
+        "group": "s-tier-unique",
+        "label": "S-Tier uniques.",
+        "macroName": {
+          "includes": "VAR_UNIQUE_STIER_ADD",
+          "excludes": "VAR_UNIQUE_STIER_NOT"
+        },
+        "default": {
+          "includes": [],
+          "excludes": []
+        }
+      },
+      {
+        "type": "style",
+        "group": "s-tier-unique",
+        "macroName": "VAR_UNIQUE_STIER_CUSTOMSTYLE",
+        "label": "S-Tier: display",
+        "default": {
+          "textColor": "#ff0000",
+          "backgroundColor": "#ffffff",
+          "borderColor": "#ff0000",
+          "fontType": 2,
+          "textAccent": 4,
+          "showLootbeam": true
+        }
+      },
+      {
+        "type": "includeExcludeList",
+        "group": "a-tier-unique",
+        "label": "A-Tier uniques.",
+        "macroName": {
+          "includes": "VAR_UNIQUE_ATIER_ADD",
+          "excludes": "VAR_UNIQUE_ATIER_NOT"
+        },
+        "default": {
+          "includes": [
+            "brimstone key",
+            "jar of*",
+            "noxious pommel",
+            "noxious point",
+            "noxious blade",
+            "*half of key (moon key)"
+          ],
+          "excludes": []
+        }
+      },
+      {
+        "type": "style",
+        "group": "a-tier-unique",
+        "macroName": "VAR_UNIQUE_ATIER_CUSTOMSTYLE",
+        "label": "A-Tier: display",
+        "default": {
+          "textColor": "#ff0000",
+          "backgroundColor": "#af6025",
+          "borderColor": "#ff0000",
+          "textAccent": 3,
+          "showLootbeam": true
+        }
+      }   
+    ]
+  }

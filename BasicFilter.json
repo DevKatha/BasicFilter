@@ -1,5 +1,5 @@
 {
     "name": "KathaFilter",
     "description": "Kathas Basic Filter",
-    "modules": []
+    "modules": [{ "path": "./Uniques.json" }]
 }

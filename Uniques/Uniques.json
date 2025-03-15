@@ -1,68 +1,186 @@
 {
-    "name": "Uniques",
-    "Subtitle": "Unique Drops",
-    "Description": "Big Boi Drops",
-    "rs2fPath":"Uniques.rs2f",
-    "inputs": [
-      {
-        "type": "includeExcludeList",
-        "group": "s-tier-unique",
-        "label": "S-Tier uniques.",
-        "macroName": {
-          "includes": "VAR_UNIQUE_STIER_ADD",
-          "excludes": "VAR_UNIQUE_STIER_NOT"
-        },
-        "default": {
-          "includes": [],
-          "excludes": []
-        }
+  "name": "Uniques",
+  "Subtitle": "Unique Drops",
+  "Description": "Big Boi Drops",
+  "rs2fPath": "Uniques.rs2f",
+  "inputs": [
+    {
+      "type": "includeExcludeList",
+      "group": "s-tier-unique",
+      "label": "S-Tier uniques.",
+      "macroName": {
+        "includes": "VAR_UNIQUE_STIER_ADD",
+        "excludes": "VAR_UNIQUE_STIER_NOT"
       },
-      {
-        "type": "style",
-        "group": "s-tier-unique",
-        "macroName": "VAR_UNIQUE_STIER_CUSTOMSTYLE",
-        "label": "S-Tier: display",
-        "default": {
-          "textColor": "#ff0000",
-          "backgroundColor": "#ffffff",
-          "borderColor": "#ff0000",
-          "fontType": 2,
-          "textAccent": 4,
-          "showLootbeam": true
-        }
+      "default": {
+        "includes": [
+          "Amulet of avarice",
+          "Ancient crystal",
+          "Ancient effigy",
+          "Ancient emblem",
+          "Ancient hilt",
+          "Ancient medallion",
+          "Ancient relic",
+          "Ancient statuette",
+          "Ancient totem",
+          "Aranea boots",
+          "Armadyl chainskirt",
+          "Armadyl chestplate",
+          "Armadyl crossbow",
+          "Armadyl helmet",
+          "Armadyl hilt",
+          "Bandos chestplate",
+          "Bandos hilt",
+          "Bandos tassets",
+          "Basilisk jaw",
+          "Bellator vestige",
+          "Black tourmaline core",
+          "Blood shard",
+          "Burning claw",
+          "Bryophyta's essence",
+          "Craw's bow (u)",
+          "Crystal tool seed",
+          "Dragon hunter wand",
+          "Dragon pickaxe",
+          "Dragon warhammer",
+          "Draconic visage",
+          "Eldritch orb",
+          "Elysian sigil",
+          "Eternal crystal",
+          "Eternal gem",
+          "Executioner's axe head",
+          "Eye of the duke",
+          "Harmonised orb",
+          "Hydra leather",
+          "Hydra's claw",
+          "Imbued heart",
+          "Inquisitor's great helm",
+          "Inquisitor's hauberk",
+          "Inquisitor's mace",
+          "Inquisitor's plateskirt",
+          "Leviathan's lure",
+          "Magma mutagen",
+          "Magus vestige",
+          "Magic fang",
+          "Nihil horn",
+          "Nightmare staff",
+          "Occult necklace",
+          "Pegasian crystal",
+          "Primordial crystal",
+          "Saradomin hilt",
+          "Serpentine visage",
+          "Skeletal visage",
+          "Smouldering stone",
+          "Spectral sigil",
+          "Staff of the Dead",
+          "Tanzanite fang",
+          "Tanzanite mutagen",
+          "Thammaron's sceptre (u)",
+          "Tormented synapse",
+          "Torva full helm (damaged)",
+          "Torva platebody (damaged)",
+          "Torva platelegs (damaged)",
+          "Treasonous ring",
+          "Trident of the seas",
+          "Trident of the seas (full)",
+          "Tyrannical ring",
+          "Ultor vestige",
+          "Uncut onyx",
+          "Unsired",
+          "Venator shard",
+          "Venator vestige",
+          "Viggora's chainmace (u)",
+          "Virtus mask",
+          "Virtus robe bottom",
+          "Virtus robe top",
+          "Voidwaker blade",
+          "Voidwaker gem",
+          "Voidwaker hilt",
+          "Volatile orb",
+          "Warped sceptre",
+          "Zalcano shard",
+          "Zamorak hilt",
+          "Zamorakian spear",
+          "Zaryte vambraces",
+          "Zenyte shard"
+        ],
+        "excludes": []
+      }
+    },
+    {
+      "type": "style",
+      "group": "s-tier-unique",
+      "macroName": "VAR_UNIQUE_STIER_CUSTOMSTYLE",
+      "label": "S-Tier: display",
+      "default": {
+        "textColor": "#ff0000",
+        "backgroundColor": "#ffffff",
+        "borderColor": "#ff0000",
+        "fontType": 2,
+        "textAccent": 4,
+        "showLootbeam": true
+      }
+    },
+    {
+      "type": "includeExcludeList",
+      "group": "a-tier-unique",
+      "label": "A-Tier uniques.",
+      "macroName": {
+        "includes": "VAR_UNIQUE_ATIER_ADD",
+        "excludes": "VAR_UNIQUE_ATIER_NOT"
       },
-      {
-        "type": "includeExcludeList",
-        "group": "a-tier-unique",
-        "label": "A-Tier uniques.",
-        "macroName": {
-          "includes": "VAR_UNIQUE_ATIER_ADD",
-          "excludes": "VAR_UNIQUE_ATIER_NOT"
-        },
-        "default": {
-          "includes": [
-            "brimstone key",
-            "jar of*",
-            "noxious pommel",
-            "noxious point",
-            "noxious blade",
-            "*half of key (moon key)"
-          ],
-          "excludes": []
-        }
-      },
-      {
-        "type": "style",
-        "group": "a-tier-unique",
-        "macroName": "VAR_UNIQUE_ATIER_CUSTOMSTYLE",
-        "label": "A-Tier: display",
-        "default": {
-          "textColor": "#ff0000",
-          "backgroundColor": "#af6025",
-          "borderColor": "#ff0000",
-          "textAccent": 3,
-          "showLootbeam": true
-        }
-      }   
-    ]
-  }
+      "default": {
+        "includes": [
+          
+          "jar of*",
+          "noxious pommel",
+          "noxious point",
+          "noxious blade",
+          "*half of key (moon key)",
+          "Bottomless compost bucket",
+          "Abyssal dagger",
+          "Abyssal whip",
+          "Dragon chainbody",
+          "Earth warrior champion scroll",
+          "Ghoul champion scroll",
+          "Giant champion scroll",
+          "Goblin champion scroll",
+          "Hobgoblin champion scroll",
+          "Imp champion scroll",
+          "Zombie champion scroll",
+          "Warrior ring",
+          "Seers ring",
+          "Berserker ring",
+          "Archers ring",
+          "Jogre champion scroll",
+          "Kraken tentacle",
+          "Lesser demon champion scroll",
+          "Malediction shard 1",
+          "Malediction shard 2",
+          "Malediction shard 3",
+          "Odium shard 1",
+          "Odium shard 2",
+          "Odium shard 3",
+          "Elder chaos hood",
+          "Elder chaos robe",
+          "Elder chaos top",
+          "Skeleton champion scroll"
+        ],
+        "excludes": []
+      }
+    },
+    {
+      "type": "style",
+      "group": "a-tier-unique",
+      "macroName": "VAR_UNIQUE_ATIER_CUSTOMSTYLE",
+      "label": "A-Tier: display",
+      "default": {
+        "textColor": "#ff0000",
+        "backgroundColor": "#af6025",
+        "borderColor": "#ff0000",
+        "textAccent": 3,
+        "showLootbeam": true
+      }
+    }
+  ]
+}

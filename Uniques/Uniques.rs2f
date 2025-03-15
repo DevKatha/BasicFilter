@@ -18,7 +18,7 @@ if (name:CONST_UNIQUE_STIER) {
   fontType = 2;
   textAccent = 4;
   showLootbeam = true;
-  sound = "4.wave";
+  sound = "4.wav";
   VAR_UNIQUE_STIER_CUSTOMSTYLE
 }
 if (name:CONST_UNIQUE_ATIER) {

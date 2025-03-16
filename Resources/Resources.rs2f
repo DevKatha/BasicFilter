@@ -1,0 +1,21 @@
+// module:resources
+
+#define CONST_REOURCE []
+
+#define CONST_REOURCE_ADD []
+#define CONST_REOURCE_NOT []
+
+#define VAR_RESOURCE_CUSTOMSTYLE textColor = "#ff0000";backgroundColor = "#fffefefe";borderColor = "#ff0000";textAccent = 3;fontType = 1;showLootbeam = true;
+
+
+if (name:CONST_RESOURCE && value:>10000) {
+  LIB_COLOR3(RED, WHITE)
+  fontType = 1;
+  textAccent = 3;
+  showLootbeam = true;
+  sound = "3.wav";
+  VAR_RESOURCE_CUSTOMSTYLE
+}
+
+
+// endmodule:resources

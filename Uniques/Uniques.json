@@ -114,10 +114,10 @@
       "label": "S-Tier: display",
       "default": {
         "textColor": "#ff0000",
-        "backgroundColor": "#ffffff",
+        "backgroundColor": "#fffefefe",
         "borderColor": "#ff0000",
-        "fontType": 2,
-        "textAccent": 4,
+        "fontType": 1,
+        "textAccent": 3,
         "showLootbeam": true
       }
     },
@@ -175,9 +175,10 @@
       "macroName": "VAR_UNIQUE_ATIER_CUSTOMSTYLE",
       "label": "A-Tier: display",
       "default": {
-        "textColor": "#ff0000",
-        "backgroundColor": "#af6025",
-        "borderColor": "#ff0000",
+        "textColor": "#ffffffff",
+        "backgroundColor": "#ffe07153",
+        "borderColor": "#eb6f2b2b",
+        "fontType": 1,
         "textAccent": 3,
         "showLootbeam": true
       }

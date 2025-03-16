@@ -1,0 +1,35 @@
+{
+    "name": "Resources",
+    "Subtitle": "Resource Drops",
+    "Description": "All sorts of Resources",
+    "rs2fPath": "Resource.rs2f",
+    "inputs": [
+      {
+        "type": "includeExcludeList",
+        "group": "resource",
+        "label": "Resources.",
+        "macroName": {
+          "includes": "VAR_RESOURCE_ADD",
+          "excludes": "VAR_RESOURCE_NOT"
+        },
+        "default": {
+          "includes": [],
+          "excludes": []
+        }
+      },
+      {
+        "type": "style",
+        "group": "resource",
+        "macroName": "VAR_RESOURCE_CUSTOMSTYLE",
+        "label": "Resource display",
+        "default": {
+          "textColor": "#ff0000",
+          "backgroundColor": "#fffefefe",
+          "borderColor": "#ff0000",
+          "fontType": 1,
+          "textAccent": 3,
+          "showLootbeam": true
+       }
+      }
+    ]
+  }

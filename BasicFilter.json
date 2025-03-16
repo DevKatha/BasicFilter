@@ -1,5 +1,7 @@
 {
     "name": "KathaFilter",
     "description": "Kathas Basic Filter",
-    "modules": [{ "modulePath": "Uniques/Uniques.json" }]
+    "modules": [{ "modulePath": "Uniques/Uniques.json" },
+                { "modulePath": "Resources/Resources.json"}]
+
 }

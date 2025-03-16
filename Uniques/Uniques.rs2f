@@ -9,8 +9,8 @@
 #define VAR_UNIQUE_ATIER_NOT []
 
 
-#define VAR_UNIQUE_STIER_CUSTOMSTYLE 
-#define VAR_UNIQUE_ATIER_CUSTOMSTYLE
+#define VAR_UNIQUE_STIER_CUSTOMSTYLE textColor = "#ff0000";backgroundColor = "#fffefefe";borderColor = "#ff0000";textAccent = 3;fontType = 1;showLootbeam = true;
+#define VAR_UNIQUE_ATIER_CUSTOMSTYLE textColor = "#ffffffff";backgroundColor = "#ffe07153";borderColor = "#eb6f2b2b";textAccent = 3;showLootbeam = true;
 
 #define LIB_BROWN       "#d2b287"
 #define LIB_LIGHT_BROWN "#af6025"

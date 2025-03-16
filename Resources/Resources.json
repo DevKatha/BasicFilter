@@ -2,7 +2,7 @@
     "name": "Resources",
     "Subtitle": "Resource Drops",
     "Description": "All sorts of Resources",
-    "rs2fPath": "Resource.rs2f",
+    "rs2fPath": "Resources.rs2f",
     "inputs": [
       {
         "type": "includeExcludeList",
